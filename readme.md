@@ -1,4 +1,4 @@
-<h1 align="center"> Next Level Week 03 - Project Happy
+<h1 align="center"> Next Level Week 03 - Project 
     <img src="https://ik.imagekit.io/RafaelSekiya/logo_0k9-inJlZF.svg">
  </h1>
 
