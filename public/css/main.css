@@ -1,0 +1,30 @@
+/* O que é uma regra css? */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  color: white;
+}
+
+:root {
+  font-size: 62.5%; /* equivale a 10px*/
+}
+
+body,
+input,
+button,
+textarea {
+  /* font-weight: 400;
+    font-size: 18px;
+    line-height: 1;
+    font-family: 'Nunito', sans-serif;
+    
+    1 em = 16px;
+
+    o que está em baixo é o resumo de tudo isso em cima
+*/
+  font: 400 1.8rem/1 "Nunito", sans-serif;
+}
