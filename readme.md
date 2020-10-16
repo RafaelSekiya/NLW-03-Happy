@@ -32,6 +32,7 @@ Este é um projeto desenvolvido durante a [Next Level](https://nextlevelweek.com
 - [Html](https://developer.mozilla.org/en-US/docs/Web/HTML)
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
 - [JavaScript](https://www.javascript.com)
+- [handlebars](https://handlebarsjs.com)
 
 ---
 
