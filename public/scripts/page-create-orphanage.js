@@ -87,9 +87,9 @@ function toggleSelect(event) {
 
       // retirar a classe .active (dos botoes)
       document.querySelectorAll('.button-select button')
-      .forEach(function(button) {
-          button.classList.remove('active')
-      })
+      .forEach((button) => 
+          button.classList.remove('active'));
+      
     // colocar a classe .active nesse botao clicado
       const button = event.currentTarget
       button.classList.add('active')
@@ -100,5 +100,15 @@ function toggleSelect(event) {
       input.value = button.dataset.value
 
 
-  
+      console.log(button.dataset.value)
+}
+
+function validate(event) {
+
+  // validar se lat e lng estão preenchidos (ponto no mapa)
+  const needsLatAndLng = false;
+  if(needsLatAndLng) {
+    event.preventDefault()
+    alert('Selecione um ponto no mapa')
+  }
 }
