@@ -40,6 +40,12 @@ map.on('click', (event) => {
 })
 
 
+
+
+
+
+
+
 // adicionar o campo de fotos
 
 function addPhotoField() {
@@ -103,12 +109,15 @@ function toggleSelect(event) {
       console.log(button.dataset.value)
 }
 
-function validate(event) {
+function validate(event){
+  
+  // validar se lat e lng estão preenchidos
+  const input1 = document.querySelector('[name="lat"]')
+  const input2 = document.querySelector('[name="lng"]')
 
-  // validar se lat e lng estão preenchidos (ponto no mapa)
-  const needsLatAndLng = false;
-  if(needsLatAndLng) {
+  if(input1.value == "" && input2.value == ""){
     event.preventDefault()
     alert('Selecione um ponto no mapa')
   }
+
 }
